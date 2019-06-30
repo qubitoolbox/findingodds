@@ -7,7 +7,7 @@
 # Also, test with different values of ii, and bb, but note, ii != 0 AND bb != 0.
 # ii can be 0 < 1 < n and 0 != ii
 # bb can be 0 < 1 < n and 0 != bb
-def runLopp(ii, bb, it):
+def runLoop(ii, bb, it):
   i = ii
   b = bb
   for i in range(it):
@@ -17,4 +17,4 @@ def runLopp(ii, bb, it):
     else:
       for k in range((n*i)):
         print(k)
-    print("Printing for k")
+    print("Printing for i")
