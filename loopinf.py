@@ -1,3 +1,11 @@
+# ii takes the value of the index to start
+# bb takes the even or odd value to check against remainder
+# it takes the amount of iterations to test with.
+# Interestingly testing with iteration values of 
+# 1,2,3,4,5,6,7,8,9,10,20,30,40,50,60,70,.., n
+# Eventually, the loop won't stop as numbers increase
+#
+#
 def runLopp(ii, bb, it):
   i = ii
   b = bb
