@@ -7,5 +7,7 @@ for i in range(50000):
   if n % b == 0:
     print(i)
   else:
+    for k in range((n*i)):
+      
     
     
