@@ -1,8 +1,8 @@
-def runLopp(ii, bb, iter):
+def runLopp(ii, bb, it):
   i = ii
   b = bb
 
-  for i in range(iter):
+  for i in range(it):
     n = 20
     if n % b == 0:
       print(i)
