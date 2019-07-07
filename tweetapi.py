@@ -15,3 +15,13 @@ def apiCall(word):
   api = tweepy.API(auth)
   #search for the word in twitter's API
   public_tweets = api.search(word)
+  #print words that matches user input and
+  #provide statistic of sentiment analysis
+  for tweet in public_tweets:
+    print("\n")
+    print("\t *****************")
+    print(tweet.text)
+    analysis = tb(tweet.text)
+    #print("\n")
+    print(analysis.sentiment)
+    print("\n")
