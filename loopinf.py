@@ -6,7 +6,7 @@
 # Eventually, the loop won't stop as numbers increase
 # Also, test with different values of ii, and bb, but note, ii != 0 AND bb != 0.
 # ii can be 0 < 1 < n and 0 != ii
-# bb can be 0 < 1 < n and 0 != bb
+ bb can be 0 < 1 < n and 0 != bb'''
 def runLoop(ii, bb, it):
   i = ii
   b = bb
