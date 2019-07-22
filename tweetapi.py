@@ -25,3 +25,8 @@ def apiCall(word):
     #print("\n")
     print(analysis.sentiment)
     print("\n")
+    
+ 
+#test it
+
+apiCall("bitcoin")
