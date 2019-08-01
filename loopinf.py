@@ -8,7 +8,6 @@
  ii can be 0 < 1 < n and 0 != ii
  bb can be 0 < 1 < n and 0 != bb'''
 
-
 def runLoop(ii, bb, it):
   i = ii
   b = bb
